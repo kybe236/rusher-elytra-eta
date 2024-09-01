@@ -112,6 +112,11 @@ public class ETAHud extends TextHudElement {
 			totalDurability += calculateElytraDurability(chestArmor);
 		}
 
+		ItemStack offhand = mc.player.getOffhandItem();
+		if (offhand.getItem() == Items.ELYTRA) {
+			totalDurability += calculateElytraDurability(offhand);
+		}
+
 		return totalDurability;
 	}
 
