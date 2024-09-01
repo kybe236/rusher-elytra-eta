@@ -1,0 +1,13 @@
+{
+  "Plugin-Class": "org.kybe.Main",
+  "Name": "Elytra ETA",
+  "Version": "${plugin_version}",
+  "Description": "Elytra ETA",
+  "Authors": [
+    "kybe236",
+    "rocoplays"
+  ],
+  "Minecraft-Versions": [
+    "1.21"
+  ]
+}
